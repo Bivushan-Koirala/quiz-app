@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  font-family: Bungee;
+  background-color: #0b0e14;
+}
+#mcq {
+  font-size: 2.5em;
+  color: rgba(255, 247, 0, 0.853);
+}
+#quiz {
+  text-align: center;
+}
+#question {
+  text-align: center;
+  padding: 2px;
+  margin: 30px;
+  color: #f4f4f9;
+}
+.option {
+  font-size: 1.5em;
+  font-family: Bungee;
+  background-color: #d67711;
+  color: #000000; /* Explicit text color */
+  border: 2px solid #0b0e14;
+  margin: 10px;
+  width: 300px;
+  cursor: pointer;
+  transition: 200ms;
+}
+.option:hover {
+  background-color: #e8a500;
+}
+.option:focus {
+  background-color: #f01b08;
+}
+#buttonContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+#mySubmit,
+#next {
+  font-size: 2em;
+  width: 200px;
+  padding: 10px;
+  margin: 0 10px;
+  border: 2px solid #0b0e14; /* Added explicit 2px width */
+  border-radius: 15px;
+  background-color: azure;
+  color: #000000; /* Explicit text color */
+  font-family: Bungee;
+  cursor: pointer;
+  transition: 200ms;
+}
+#mySubmit:hover {
+  background-color: rgb(3, 248, 248);
+}
+#next:hover {
+  background-color: rgb(3, 248, 248);
+}
+#myResult {
+  color: azure;
+}
+#score {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  color: #f4f4f9;
+}
