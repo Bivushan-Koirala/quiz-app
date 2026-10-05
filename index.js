@@ -1,21 +1,54 @@
 let result = document.getElementById(`myResult`);
 const questions = [
   {
-    text: "What is the capital of Nepal?",
-    options: ["Pokhara", "Jhapa", "Kathmandu", "Birgunj"],
-    answer: 2,
-  },
-
-  {
-    text: "Your second question here?",
-    options: ["Option A", "Option B", "Option C", "Option D"],
+    text: "What keyword is used to declare a block-scoped variable that can change?",
+    options: ["var", "let", "const", "int"],
     answer: 1,
   },
-
   {
-    text: "Your third question here?",
-    options: ["Option A", "Option B", "Option C", "Option D"],
-    answer: 3,
+    text: "Which operator is used to check both value and type (strict equality)?",
+    options: ["==", "=", "===", "!="],
+    answer: 2,
+  },
+  {
+    text: "How do you write 'Hello World' in an alert box?",
+    options: ["msg('Hello World')", "alert('Hello World')", "prompt('Hello World')", "console.log('Hello World')"],
+    answer: 1,
+  },
+  {
+    text: "Which method adds a new element to the end of an array?",
+    options: ["push()", "pop()", "shift()", "unshift()"],
+    answer: 0,
+  },
+  {
+    text: "What does 'NaN' stand for in JavaScript?",
+    options: ["Not a Number", "New and Null", "Number Area Network", "None are Null"],
+    answer: 0,
+  },
+  {
+    text: "How do you properly declare a function in JavaScript?",
+    options: ["function = myFunction()", "function myFunction()", "create myFunction()", "def myFunction()"],
+    answer: 1,
+  },
+  {
+    text: "Which characters are used for a single-line comment?",
+    options: ["//", "/*", "<!--", "--"],
+    answer: 0,
+  },
+  {
+    text: "What will 'typeof null' return in JavaScript?",
+    options: ["'null'", "'object'", "'undefined'", "'number'"],
+    answer: 1,
+  },
+  {
+    text: "Which method removes the last element from an array?",
+    options: ["pop()", "push()", "slice()", "splice()"],
+    answer: 0,
+  },
+  {
+    text: "How do you find the number with the highest value of x and y?",
+    options: ["Math.ceil(x, y)", "Math.max(x, y)", "top(x, y)", "Math.highest(x, y)"],
+    answer: 1,
   },
 ];
 const optionBtn = [
